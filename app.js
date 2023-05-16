@@ -154,7 +154,7 @@ function NormalAttack () {
            AttackButtonB.removeAttribute('onclick');
            AttackButtonC.removeAttribute('onclick');
            localStorage.setItem(playerHealth, playerHealtht);
-           vilianOneHealth -= 20;
+           vilianOneHealth -= 40;
            vilianOneHealtht.innerText = vilianOneHealth;
                   setTimeout(() => {
                    characterContainerL.classList.remove('animationForSpellWarrior');
